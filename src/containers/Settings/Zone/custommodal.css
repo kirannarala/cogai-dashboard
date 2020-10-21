@@ -1,0 +1,55 @@
+.zone_popup .new_form_popup{
+    padding:10px 30px;
+}
+.zone_popup .box_{
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    position: relative;
+}
+.zone_popup .box_ label{
+    font-size: 16px;
+    font-weight: 500;
+}
+.zone_popup .box_ input{
+    height: 42px;
+    font-size: 15px;
+}
+.zone_popup .violationDistance{
+    padding-bottom: 20px;
+    position: relative;
+}
+.zone_popup .violationDistance h3{
+    color: #888;
+    font-size: 16px;
+    font-weight: 500;
+}
+.zone_popup .violationDistance .rangeslider__fill {
+    background-color: #556ee6 !important;
+}
+.zone_popup .violationDistance .stRange{
+    margin-top: -10px;
+    float: left;
+    color: #888;
+}
+.zone_popup .violationDistance .enRange{
+    margin-top: -10px;
+    float: right;
+    color: #888;
+}
+.zone_popup .violationDistance .rangeslider__handle-label {
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 4px;
+    text-align: center;
+    color: #000;
+}
+.zone_popup .violationDistance .rangeslider-horizontal .rangeslider__handle:after {
+    display: none;
+}
+.zone_popup .error_message{
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+    color: #f46a6a;
+    bottom: -6px;
+}

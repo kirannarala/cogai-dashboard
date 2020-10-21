@@ -1,0 +1,51 @@
+    ._popup .new_form_popup{
+        padding-top: 20px;
+    }
+    ._popup .ant-modal-title{
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    ._popup .box_{
+        margin: 10px 20px 35px;
+        background-color: #ffffff;
+        margin-top: 0px;
+        position: relative;
+    }
+    ._popup .box_ label{
+        padding: 12px;
+        display: block;
+        font-size: 18px;
+        background-color:#363e54;
+        color: #ffffff;
+    }
+    ._popup .box_ .selected_data{
+        padding: 12px;
+        display: block;
+        font-size: 18px;
+        height: 57px;
+    }
+    ._popup .box_ .selected_data.ant-select{
+        border: 1px solid #eaeaea;
+        border-radius: 4px;
+    }
+    ._popup .box_ .selected_data .ant-select{
+        border: none !important;
+    } 
+    ._popup .box_ .selected_data .ant-select-selection__rendered{
+        margin: 0px;
+    }
+    ._popup .box_ .selected_data .ant-select-selection--single{
+        height: auto;
+        border: none !important;
+        box-shadow: none !important;
+    }
+    ._popup .box_ span.selected_data{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    ._popup .box_ .error_message{
+        font-size: 14px;
+        position: absolute;
+        left: 0;
+        color: #f46a6a;
+    }

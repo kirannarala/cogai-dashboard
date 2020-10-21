@@ -1,0 +1,358 @@
+/********** Add Your Global CSS Here **********/
+
+body {
+  -webkit-overflow-scrolling: touch;
+  background-color: #222736 !important;
+}
+
+html h1,
+html h2,
+html h3,
+html h4,
+html h5,
+html h6,
+html a,
+html p,
+html li,
+input,
+textarea,
+span,
+div,
+html,
+body,
+html a {
+  margin-bottom: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+html ul {
+  -webkit-padding-start: 0px;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.scrollbar-track-y,
+.scrollbar-thumb-y {
+  width: 5px !important;
+}
+
+.scrollbar-track-x,
+.scrollbar-thumb-x {
+  height: 5px !important;
+}
+
+.scrollbar-thumb {
+  border-radius: 0 !important;
+}
+
+.scrollbar-track {
+  background: rgba(222, 222, 222, 0.15) !important;
+}
+
+.scrollbar-thumb {
+  border-radius: 0 !important;
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.ant-popover-placement-bottom > .ant-popover-content > .ant-popover-arrow:after,
+.ant-popover-placement-bottomLeft
+  > .ant-popover-content
+  > .ant-popover-arrow:after,
+.ant-popover-placement-bottomRight
+  > .ant-popover-content
+  > .ant-popover-arrow:after,
+.ant-popover-placement-top > .ant-popover-content > .ant-popover-arrow:after,
+.ant-popover-placement-topLeft
+  > .ant-popover-content
+  > .ant-popover-arrow:after,
+.ant-popover-placement-topRight
+  > .ant-popover-content
+  > .ant-popover-arrow:after {
+  left: 0;
+  margin-left: -4px;
+}
+
+/********** Add Your Global RTL CSS Here **********/
+
+/* Popover */
+
+html[dir='rtl'] .ant-popover {
+  text-align: right;
+}
+
+/* Ecommerce Card */
+
+html[dir='rtl'] .isoCardInfoForm .ant-input {
+  text-align: right;
+}
+
+/* Modal */
+
+html[dir='rtl'] .has-success.has-feedback:after,
+html[dir='rtl'] .has-warning.has-feedback:after,
+html[dir='rtl'] .has-error.has-feedback:after,
+html[dir='rtl'] .is-validating.has-feedback:after {
+  left: 0;
+  right: auto;
+}
+
+html[dir='rtl'] .ant-modal-close {
+  right: inherit;
+  left: 0;
+}
+
+html[dir='rtl'] .ant-modal-footer {
+  text-align: left;
+}
+
+html[dir='rtl'] .ant-modal-footer button + button {
+  margin-left: 0;
+  margin-right: 8px;
+}
+
+html[dir='rtl'] .ant-confirm-body .ant-confirm-content {
+  margin-right: 42px;
+}
+
+html[dir='rtl'] .ant-btn > .anticon + span,
+html[dir='rtl'] .ant-btn > span + .anticon {
+  margin-right: 0.5em;
+}
+
+html[dir='rtl'] .ant-btn-loading span {
+  margin-left: 0;
+  margin-right: 0.5em;
+}
+
+html[dir='rtl']
+  .ant-btn.ant-btn-loading:not(.ant-btn-circle):not(.ant-btn-circle-outline) {
+  padding-left: 25px;
+  padding-right: 29px;
+}
+
+html[dir='rtl']
+  .ant-btn.ant-btn-loading:not(.ant-btn-circle):not(.ant-btn-circle-outline)
+  .anticon {
+  margin-right: -14px;
+  margin-left: 0;
+}
+
+/* Confirm */
+
+html[dir='rtl'] .ant-modal.ant-confirm .ant-confirm-body > .anticon {
+  margin-left: 16px;
+  margin-right: 0;
+  float: right;
+}
+
+html[dir='rtl'] .ant-modal.ant-confirm .ant-confirm-btns {
+  float: left;
+}
+
+html[dir='rtl'] .ant-modal.ant-confirm .ant-confirm-btns button + button {
+  margin-right: 10px;
+  margin-left: 0;
+}
+
+/* Message */
+
+html[dir='rtl'] .ant-message .anticon {
+  margin-left: 8px;
+  margin-right: 0;
+}
+
+/* Pop Confirm */
+
+html[dir='rtl'] .ant-popover-message-title {
+  padding-right: 20px;
+  padding-left: 0;
+}
+
+html[dir='rtl'] .ant-popover-buttons {
+  text-align: left;
+}
+
+/* Notification */
+
+html[dir='rtl']
+  .ant-notification-notice-closable
+  .ant-notification-notice-message {
+  padding-left: 24px;
+  padding-right: 0;
+}
+
+html[dir='rtl']
+  .ant-notification-notice-with-icon
+  .ant-notification-notice-message,
+html[dir='rtl']
+  .ant-notification-notice-with-icon
+  .ant-notification-notice-description {
+  margin-right: 48px;
+}
+
+html[dir='rtl'] .ant-notification-notice-close {
+  right: auto;
+  left: 16px;
+}
+
+html[dir='rtl'] .ant-notification-notice-with-icon {
+  left: 0;
+}
+
+/* Dropzone */
+
+html[dir='rtl'] .dz-hidden-input {
+  display: none;
+}
+
+html, body, #container, .app {
+  margin:0; padding:0;
+  width: 100%;
+  height: 100%;
+}
+.ocd-div, .ocd, .openseadragon {width:100%; height:100%}
+
+.ocd-div {
+  width: auto;
+  height: 217px;
+  max-width: 100%;
+  }
+
+ 
+ .navigator-wrapper {width:125px; text-align: center; position:absolute; left:0px; bottom:0px;
+    background:#000; overflow:hidden; border:solid 0px #ffffff; z-index:3100 }
+  #navigator {width:120px; height:83px; padding-top: 5px !important;
+    padding-right: 2px !important; position:absolute; top:0;  }
+  #navigator-displayregion {border-width:1px !important; border-color: #d53015 !important; z-index:4500 !important;
+    background:rgba(0,0,0,.2) !important;}
+  
+  .ocd-toolbar {width:30px; display:block; position:absolute; top:50%; right:1px; list-style:none; z-index:110; padding:0;}
+  .ocd-toolbar > li { list-style:none }
+  .ocd-toolbar a {width:30px; height:30px; display:block !important; background:rgba(0,0,0,.6); color:#fff; margin-bottom:1px; cursor:pointer; text-align:center}
+  .ocd-toolbar a:hover {background: rgba(158, 46, 0, 0.6); text-decoration:none}
+  .ocd-toolbar a > i {display:block; width:30px; height:30px; line-height:30px; font-size:15px; padding-top:2px}
+  /* endregion */
+
+  /* chart */
+  .apexcharts-xcrosshairs.apexcharts-active, .apexcharts-ycrosshairs.apexcharts-active{
+    fill: none;
+  }
+  .chart_ .nav-link{
+    position: relative;
+  }
+  .chart_ .nav-link .ant-calendar-picker{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 1px;
+    left: 0;
+    opacity: 0;
+  }
+  .chart_ .nav-link .ant-calendar-picker .ant-input{
+    cursor: pointer !important;
+  }
+  .chart_ .previous_date_Wrappper{
+    color: #ffffff;
+    font-size: 16px;
+    padding-bottom: 16px;
+    padding-left: 25px;
+  }
+  .apexcharts-canvas .apexcharts-bar-area{
+    cursor: pointer;
+  }
+  .apexcharts-xaxis .apexcharts-text.apexcharts-xaxis-label {
+    fill: #bfc8e2 !important;
+  }
+  /* Loader style */
+  .ant-spin-blur::after{
+    opacity: 0.2 !important;
+  }
+  .ant-spin-container::after{
+    background: #000000 !important;
+  }
+  /*#camera_popup .address_popup_header{
+    font-size:16px;
+    color: #888888;
+    font-weight: 600;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 35px;
+  }
+  #camera_popup .address_popup_header h1{
+    text-align:center;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #888888;
+    margin-bottom: 10px;
+  }
+  #camera_popup .address_popup_header span{
+    position: absolute;
+    right: 17px;
+    top: 19px;
+    font-size: 19px;
+    cursor:pointer;
+  }
+  #camera_popup .address_popup_header span:before{
+    content: "\292C";
+    position:relative;
+    bottom:4px;
+    left: 3px;
+    color: gray;
+  }
+  #camera_popup .box_{
+    margin: 10px 20px 35px;
+    background-color: #ffffff;
+    margin-top: 0px;
+    position: relative;
+  }
+  #camera_popup .box_ label{
+    padding: 12px;
+    display: block;
+    font-size: 18px;
+    background-color:#363e54;
+    color: #ffffff;
+  }
+  #camera_popup .box_ .selected_data{
+    padding: 12px;
+    display: block;
+    font-size: 18px;
+    height: 57px;
+  }
+  #camera_popup .box_ .selected_data[disabled]{
+    color: #595959 !important;
+  }
+  #camera_popup .box_ .selected_data.ant-select{
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+  }
+  #camera_popup .box_ .selected_data.ant-select-disabled{
+    background-color:#f5f5f5;
+    cursor: not-allowed;
+  }
+  #camera_popup .box_ .selected_data.ant-select-disabled .ant-select-selection{
+    background-color: #f5f5f5;
+    cursor: not-allowed;
+  }
+  #camera_popup .box_ .selected_data .ant-select{
+    border: none !important;
+  } 
+  #camera_popup .box_ .selected_data .ant-select-selection__rendered{
+    margin: 0px;
+  }
+  #camera_popup .box_ .selected_data .ant-select-selection--single{
+    height: auto;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  #camera_popup .box_ span.selected_data{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  #camera_popup .box_ .error_message{
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+    color: #f46a6a;
+  }*/
